@@ -1,0 +1,9 @@
+^docs$
+^_pkgdown\.yml$
+^\.travis\.yml$
+^README\.Rmd$
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^video\.Rproj$
+^LICENSE\.md$

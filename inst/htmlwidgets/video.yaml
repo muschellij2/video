@@ -1,0 +1,13 @@
+dependencies:
+ - name: video
+   version: 7.5.4
+   src: htmlwidgets/videojs
+   script:
+    - videojs.js
+    - videojs-ie8.js
+   stylesheet:
+    - videojs.css
+ - name: jquery
+   version: 3.4.0
+   src: htmlwidgets/jquery
+   script: jquery.min.js
