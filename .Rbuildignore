@@ -7,3 +7,4 @@
 ^data-raw$
 ^video\.Rproj$
 ^LICENSE\.md$
+^appveyor\.yml$
