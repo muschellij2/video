@@ -1,7 +1,4 @@
-# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
-
 language: R
-sudo: required
 cache: packages
 after_success: if [ "$TRAVIS_OS_NAME" == "linux" ]; then Rscript -e 'covr::codecov(type
   = "all")'; fi
@@ -12,8 +9,8 @@ deploy:
   provider: releases
   skip_cleanup: yes
   file_glob: yes
-  file: papayaWidget*.t*gz
+  file: video*.t*gz
   'on':
     tags: yes
-    repo: muschellij2/papayaWidget
+    repo: muschellij2/video
 

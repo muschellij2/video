@@ -1,30 +1,29 @@
 
+[![Travis build
+status](https://travis-ci.com/muschellij2/video.svg?branch=master)](https://travis-ci.com/muschellij2/video)
+[![AppVeyor Build
+Status](https://ci.appveyor.com/api/projects/status/github/muschellij2/video?branch=master&svg=true)](https://ci.appveyor.com/project/muschellij2/video)
+[![Coverage
+status](https://codecov.io/gh/muschellij2/video/branch/master/graph/badge.svg)](https://codecov.io/gh/muschellij2/video)
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# video
+# video Package:
 
-<!-- badges: start -->
-
-<!-- badges: end -->
-
-The goal of video is to …
+The goal of `video` is to provide an HTML widget to allow for
+incorporating videos in an RMarkdown documents.
 
 ## Installation
 
-You can install the released version of video from
-[CRAN](https://CRAN.R-project.org) with:
+You can install `video` from GitHub with:
 
 ``` r
-install.packages("video")
+# install.packages("remotes")
+remotes::install_github("muschellij2/video")
 ```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(video)
 video("http://vjs.zencdn.net/v/oceans.mp4")
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
+![](man/figures/README-unnamed-chunk-1-1.png)<!-- -->

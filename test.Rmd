@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+author: "John Muschelli"
+date: "4/23/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(video)
+```
+
+## R Markdown
+
+```{r}
+video("/Users/johnmuschelli/Dropbox/Papers/ari_paper/output.mp4")
+```
+
+```{r}
+video('https://vjs.zencdn.net/v/oceans.mp4')
+```
